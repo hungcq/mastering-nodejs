@@ -2,7 +2,7 @@
   "name": "mastering-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/file/electron-app/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.7.2",
+    "formidable": "^1.2.2",
     "twit": "^2.2.11"
   }
 }
