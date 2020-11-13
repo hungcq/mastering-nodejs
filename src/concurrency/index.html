@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <ul id="results">Results</ul>
+    </body>
+    <script>
+        function longPoll() {
+            $.get('http://localhost:2112/poll', (data) => {
+                $('<li>' + data + '</li>').appendTo('#results');
+                longPoll();
+            });
+        }
+
+        longPoll();
+    </script>
+</html>
