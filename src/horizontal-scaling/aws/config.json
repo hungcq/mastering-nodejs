@@ -1,0 +1,10 @@
+{
+    "accessKeyId" : "AKIAIQD5REUXDU75GZ6Q",
+    "secretAccessKey" : "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",
+    "region" : "ap-southeast-1",
+    "apiVersions" : {
+        "s3" : "2006-03-01",
+        "ses" : "2010-12-01",
+        "dynamodb" : "2012-08-10"
+    }
+}
