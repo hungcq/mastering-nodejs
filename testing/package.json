@@ -1,0 +1,17 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spec/stub-test.js",
+  "scripts": {
+    "test": "mocha ./spec --require ./spec/helpers/chai.js --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "redis": "^3.0.2",
+    "sinon": "^9.2.2"
+  }
+}
