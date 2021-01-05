@@ -15,6 +15,7 @@
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
     "formidable": "^1.2.2",
+    "heapdump": "^0.3.15",
     "http-proxy": "^1.18.1",
     "jwt-simple": "^0.5.6",
     "redbird": "^0.10.0",
